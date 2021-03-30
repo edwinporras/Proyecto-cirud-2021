@@ -1,0 +1,23 @@
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/edwinporras/Proy-2021-cirud.git
+git push -u origin main
+
+
+VERSIONAR
+- git tag NOMBRE_VERSION -m "NOMBRE_VERSION 1.0"
+- git push --tags
+
+CREACION DE RAMAS
+- git branch --> saber que ramas hayg
+- git branch "Nombre de la rama sin las comillas"
+- Ingresar a otra rama:
+    git checkout "Nombre de la rama sin las comillas"
+- para actualizar contenido de la rama:
+    - se sube el contenido a la rama alterna (add, commit)
+    - pocisionar en la rama master y realizar
+        -   git merge "Nombre de la rama alterna sin las comillas"
+- para eliminar una rama:
+    - git branch -d "Nombre de la rama alterna sin las comillas"
