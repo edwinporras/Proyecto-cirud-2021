@@ -21,3 +21,5 @@ CREACION DE RAMAS
         -   git merge "Nombre de la rama alterna sin las comillas"
 - para eliminar una rama:
     - git branch -d "Nombre de la rama alterna sin las comillas"
+
+EJEMPLO
